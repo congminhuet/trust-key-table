@@ -16,7 +16,7 @@ class App extends React.Component {
   
   
   render(){
-    const {loading ,coins, markets ,fetchMarkets, fetchCoins} = this.props;
+    const {loading ,coins, markets} = this.props;
     const { TabPane } = Tabs;
     var arr = [];
     Object.keys(markets).forEach((e) => {
